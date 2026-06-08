@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fcf5f5;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #98c9c9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #ece5eb;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(0, 7, 8);
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    background-color: rgba(227, 149, 247, 0.486);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #869dac;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.skip-link {
+    position: absolute;
+    left: -9999px;
+}
+
+.skip-link:focus {
+    left: 10px;
+    top: 10px;
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #00bcd4;
+}
+html {
+    scroll-behavior: smooth;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #ce3d3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px #00bcd4,
+                0 0 30px #d400c9;
+    transform: scale(1.05);
+}
+h1, h2 {
+    transition: text-shadow 0.3s ease;
+}
+
+h1:hover, h2:hover {
+    text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+}
+.project-card {
+    background: rgba(233, 98, 192, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(135, 87, 224, 0.3);
+    
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 16px;
+
+    transition: all 0.4s ease;
+    transform: translateY(0);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
